@@ -66,7 +66,6 @@ body {
     background-color: #fff;
 }
 
-/* Card Section */
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -120,7 +119,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -129,9 +128,6 @@ footer {
     margin-top: 2rem;
 }
 
-/* Responsive Design */
-
-/* Tablet View */
 @media (max-width: 992px) {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
@@ -152,8 +148,6 @@ footer {
         width: 80%;
     }
 }
-
-/* Mobile View */
 @media (max-width: 600px) {
     .card-container {
         grid-template-columns: 1fr;
@@ -179,4 +173,5 @@ footer {
     .search-bar input {
         width: 100%;
     }
+
 }
